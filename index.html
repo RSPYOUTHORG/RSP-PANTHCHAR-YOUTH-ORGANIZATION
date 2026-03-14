@@ -1,80 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ne">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>राष्ट्रिय स्वतन्त्र युवा संघ पाँचथर</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>राष्ट्रिय स्वतन्त्र युवा संघ पाँचथर</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <h1>राष्ट्रिय स्वतन्त्र युवा संघ पाँचथर</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">गृहपृष्ठ</a></li>
-                    <li><a href="#about">हाम्रो बारेमा</a></li>
-                    <li><a href="#activities">कार्यक्रमहरू</a></li>
-                    <li><a href="#gallery">ग्यालरी</a></li>
-                    <li><a href="#contact">सम्पर्क</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container">
-                <!-- Slogan and subtitle will be inserted by script.js -->
-                <h2></h2>
-                <p></p>
-                <button class="cta-button">थप जान्नुहोस्</button>
-            </div>
-        </section>
+<header>
 
-        <section id="about" class="about-us">
-            <div class="container">
-                <h2>हाम्रो बारेमा</h2>
-                <p>यहाँ तपाईंले राष्ट्रिय स्वतन्त्र युवा संघ पाँचथरको उद्देश्य, लक्ष्य र पार्टीसँगको सम्बन्धबारे विस्तृत
-                    जानकारी पाउनुहुनेछ।</p>
-                <!-- More about us content will be inserted by script.js -->
-            </div>
-        </section>
+<div class="logo">
+राष्ट्रिय स्वतन्त्र युवा संघ पाँचथर
+</div>
 
-        <section id="activities" class="activities">
-            <div class="container">
-                <h2>कार्यक्रमहरू</h2>
-                <p>हाम्रा आगामी र सम्पन्न भएका कार्यक्रमहरूका बारेमा जानकारी यहाँ हुनेछ।</p>
-                <!-- List of activities/events will be inserted by script.js -->
-            </div>
-        </section>
+<nav>
+<ul>
 
-        <section id="gallery" class="gallery">
-            <div class="container">
-                <h2>ग्यालरी</h2>
-                <p>हाम्रा कार्यक्रमका तस्बिर र भिडियोहरू यहाँ प्रदर्शन गरिनेछन्।</p>
-                <!-- Image grid/carousel will go here -->
-            </div>
-        </section>
+<li><a href="#home">गृहपृष्ठ</a></li>
+<li><a href="#about">हाम्रो बारेमा</a></li>
+<li><a href="#activities">कार्यक्रमहरू</a></li>
+<li><a href="#gallery">ग्यालरी</a></li>
+<li><a href="#contact">सम्पर्क</a></li>
 
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>सम्पर्क</h2>
-                <p>हामीलाई सम्पर्क गर्नुहोस् र हामीसँग जोडिनुहोस्।</p>
-                <!-- Contact form or details will be inserted by script.js -->
-            </div>
-        </section>
-    </main>
+</ul>
+</nav>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 राष्ट्रिय स्वतन्त्र युवा संघ पाँचथर। सबै अधिकार सुरक्षित।</p>
-        </div>
-    </footer>
+</header>
 
-    <script src="script.js"></script>
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<h1 id="heroTitle"></h1>
+<p id="heroSubtitle"></p>
+
+<button id="joinBtn">
+हामीसँग जोडिनुहोस्
+</button>
+
+</div>
+
+</section>
+
+
+<section id="about">
+
+<h2>हाम्रो बारेमा</h2>
+
+<div id="aboutContent"></div>
+
+</section>
+
+
+
+<section id="activities">
+
+<h2>कार्यक्रमहरू</h2>
+
+<div id="activitiesContent" class="activity-grid"></div>
+
+</section>
+
+
+
+<section id="gallery">
+
+<h2>ग्यालरी</h2>
+
+<div class="gallery-grid">
+
+<img src="https://picsum.photos/400/300?1">
+<img src="https://picsum.photos/400/300?2">
+<img src="https://picsum.photos/400/300?3">
+<img src="https://picsum.photos/400/300?4">
+<img src="https://picsum.photos/400/300?5">
+<img src="https://picsum.photos/400/300?6">
+
+</div>
+
+</section>
+
+
+
+<section id="contact">
+
+<h2>सम्पर्क</h2>
+
+<div id="contactContent"></div>
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 राष्ट्रिय स्वतन्त्र युवा संघ पाँचथर
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
 </body>
-
 </html>
